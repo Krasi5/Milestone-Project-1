@@ -1,0 +1,321 @@
+body {
+    font-family: "Noto Serif", sans-serif;
+}
+/*---header--*/
+
+
+.navalert-container{
+    background-color: gray;
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+.navbar .navbar-toggler {
+    border-color: gold;
+    color: gold;
+}
+
+.navbar .navbar-brand {
+    color: gold;
+}
+.nav-link:hover {
+    color: rgb(43, 42, 42);;
+}
+.navbar-nav {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: gray;
+    color: gold;
+}
+
+
+/*-------------------------Button*/
+.btn--gold {
+    border: 2px;
+    border-color: gray;
+    background-color: gold;
+    color: gray; 
+}
+.btn-sign{
+    border-radius: 30px;
+    
+}
+.jumbotron {
+    background: transparent;
+    height: 75vh;
+    color: gold;
+    text-transform: uppercase;
+}
+.moto {
+background-color: grey;
+margin-bottom: 30px;
+}
+.lead {
+    background-color: grey;
+    margin-top: 50px;
+}
+.home-container {
+    height: 100vh;
+    background:  url("../images/gym-5977600_1280.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*---Stackoverflow---*/
+.features-container{
+    height: 100vh;
+    background:  url("../images/gym-2649824_1920.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quodrant{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+    padding: 0;
+    text-align: center;
+   
+} 
+
+.quodrant-container{
+width: 100%;
+
+}
+.text {
+    margin-top: 25px;
+   
+}
+.qtop,
+.qbottom{
+    width: 90%;
+    height: 40vh;
+}
+
+
+.quodrant1,
+.quodrant2,
+.quodrant3,
+.quodrant4{
+    display: inline;
+   
+    width: 40%;
+    height: 80%;
+    border-color: gray;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: gold;
+}
+.quodrant2,
+.quodrant4{
+    float: left;
+    margin-right: 20px;
+}
+
+.quodrant1,
+.quodrant3{
+    float: right;
+    margin-left: 20px;
+}
+
+
+/*--Testimonials float: right;--*/
+
+
+.feature {
+    display: inline;
+    float: left;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2%;
+    padding-bottom: 25px;
+    background-color: gray;
+    color: gold;
+    margin-bottom: 35px;
+
+   
+}
+.container-wrapper{
+    width: 100%;
+    height: 50%;
+    background-color: gold;
+}
+/*--Footer--*/
+
+.mb-3 {
+    background-color: gray;
+}
+
+
+
+
+/*-------------------------Button*/
+.btn--gold {
+    background-color: gold;
+    color: gray;
+   
+}
+.jumbotron {
+    background: transparent;
+    height: 75vh;
+    color: gold;
+    text-transform: uppercase;
+}
+.moto {
+background-color: grey;
+margin-bottom: 150px;
+margin-bottom: 150px;
+}
+.col-md-auto{
+    background-color: grey;
+    
+}
+.home-container {
+    height: 100vh;
+    background:  url("../images/gym-5977600_1280.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*---Stackoverflow---*/
+
+.features-container,
+.feature-container{
+    height: 100vh;
+    background:  url("../images/pexels-goumbik-669576.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quodrant{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+    padding: 0;
+    text-align: center;
+   
+}
+.text {
+    margin-top: 25px;
+   
+}
+.qtop,
+.qbottom{
+    width: 90%;
+    height: 40vh;
+}
+
+
+.quodrant1,
+.quodrant2,
+.quodrant3,
+.quodrant4,
+.col{
+    position: relative;
+    display: inline;
+    float: right;
+    width: 40%;
+    height: 80%;
+    border-color: gray;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: gold;
+}
+
+
+/*--Testimonials--*/
+
+
+.feature, 
+.test {
+    display: inline;
+    float: right;
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: gray;
+    color: gold;
+    margin-top: 100px;
+   
+}
+
+@media screen and (min-width: 480px){
+
+}
+
+.mr-3 {
+    object-fit: scale-down;
+    margin-top: 15px;
+}
+.text-testimonials{
+    margin-top: 15px;
+}
+.container-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: gold;
+}
+
+.testimonials-container{
+    width: 100%;
+    height: 60vh;
+    background-color: gold;
+}
+/*--Footer--*/
+
+  .footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    color: gold;
+    text-align: center;
+  }
+
+ .list-inline-item {
+    margin: 7px;
+ }
+ .footer-container i {
+    color: gold;
+    font-size: 160%;
+    padding: 5%;
+    margin: 15;
+ }
+
+
+
+
+
+
+
+
